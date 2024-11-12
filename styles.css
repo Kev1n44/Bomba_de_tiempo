@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.bomb-image {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.timer-container, .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.timer {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 70px;
+    text-align: center;
+}
+
+button.cut-button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.cut-button:disabled {
+    background-color: #ccc;
+}
+
+.main-timer {
+    margin-top: 20px;
+}
+
+.timer[data-color="yellow"] { border: 2px solid yellow; }
+.timer[data-color="red"] { border: 2px solid red; }
+.timer[data-color="blue"] { border: 2px solid blue; }
+.timer[data-color="purple"] { border: 2px solid purple; }
+.timer[data-color="orange"] { border: 2px solid orange; }
+.timer[data-color="black"] { border: 2px solid black; }

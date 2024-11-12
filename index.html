@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Desactivación de Bomba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="Bomba.png" alt="Bomba" class="bomb-image">
+        <div class="timer-container">
+            <div class="timer" data-time="60" data-color="yellow">1:00</div>
+            <div class="timer" data-time="75" data-color="red">1:15</div>
+            <div class="timer" data-time="90" data-color="blue">1:30</div>
+            <div class="timer" data-time="105" data-color="purple">1:45</div>
+            <div class="timer" data-time="120" data-color="orange">2:00</div>
+        </div>
+        <div class="button-container">
+            <button class="cut-button">Cortar</button>
+            <button class="cut-button">Cortar</button>
+            <button class="cut-button">Cortar</button>
+            <button class="cut-button">Cortar</button>
+            <button class="cut-button">Cortar</button>
+        </div>
+        <div class="main-timer">
+            <div class="timer" data-time="720" data-color="black">12:00</div>
+            <button id="startButton">Start</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
